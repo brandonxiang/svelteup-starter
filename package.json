@@ -22,6 +22,6 @@
     "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "svelteup": "^1.0.0"
+    "svelteup": "^1.0.1"
   }
 }

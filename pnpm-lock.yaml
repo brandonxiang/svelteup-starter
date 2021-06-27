@@ -1,7 +1,7 @@
 dependencies:
   svelte: 3.38.3
 devDependencies:
-  svelteup: 1.0.0
+  svelteup: 1.0.1
 lockfileVersion: 5.2
 packages:
   /@nodelib/fs.scandir/2.1.5:
@@ -208,7 +208,7 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-N7bBZJH0iF24wsalFZF+fVYMUOigaAUQMIcEKHO3jstK/iL8VmP9xE+P0/a76+FkNcWt+TDv2Gx1taUoUscrvw==
-  /svelteup/1.0.0:
+  /svelteup/1.0.1:
     dependencies:
       esbuild: 0.12.9
       esbuild-svelte: 0.5.1_esbuild@0.12.9
@@ -218,7 +218,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-kXxLOesNgcjGbD231HDb+1iYi+9XhaWE+hHhPFrR3dWcaLKtF35h9uOMgSFl5QFomaRqPaPrQt1Ck/saFeA5cw==
+      integrity: sha512-jpzmOv3C+ZkZN29fVwBA8oX0+C1hIBN7dShJTqQv8fgoAIP7t7Ha8AFlIXq1QvgWpg8qn6SJHmSBY/N/Ecpo8w==
   /to-regex-range/5.0.1:
     dependencies:
       is-number: 7.0.0
@@ -229,4 +229,4 @@ packages:
       integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
 specifiers:
   svelte: ^3.0.0
-  svelteup: ^1.0.0
+  svelteup: ^1.0.1
