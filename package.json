@@ -1,0 +1,27 @@
+{
+  "name": "svelteup-starter",
+  "version": "1.0.0",
+  "description": "A simple starter with svelteup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "svelteup components/index.js -O public/build -S public",
+    "build": "svelteup components/index.js -O public/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonxiang/svelteup-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonxiang/svelteup-starter/issues"
+  },
+  "homepage": "https://github.com/brandonxiang/svelteup-starter#readme",
+  "dependencies": {
+    "svelte": "^3.0.0"
+  },
+  "devDependencies": {
+    "svelteup": "^1.0.0"
+  }
+}
