@@ -1,4 +1,6 @@
 dependencies:
+  svelte: 3.38.3
+devDependencies:
   svelteup: 1.0.0
 lockfileVersion: 5.2
 packages:
@@ -6,13 +8,13 @@ packages:
     dependencies:
       '@nodelib/fs.stat': 2.0.5
       run-parallel: 1.2.0
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
       integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==
   /@nodelib/fs.stat/2.0.5:
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
@@ -21,13 +23,13 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.11.0
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
       integrity: sha512-BTIhocbPBSrRmHxOAJFtR18oLhxTtAFDAvL8hY1S3iU8k+E60W/YFs4jrixGzQjMpF4qPXxIQHcjVD9dz1C2QA==
   /array-union/2.1.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -35,7 +37,7 @@ packages:
   /braces/3.0.2:
     dependencies:
       fill-range: 7.0.1
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -43,7 +45,7 @@ packages:
   /dir-glob/3.0.1:
     dependencies:
       path-type: 4.0.0
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -52,13 +54,13 @@ packages:
     dependencies:
       esbuild: 0.12.9
       svelte: 3.38.3
-    dev: false
+    dev: true
     peerDependencies:
       esbuild: '>=0.9.6'
     resolution:
       integrity: sha512-df22x5t0zVjp/NVvFK5pF17U6C4A/2Ce1uE6oxk1Y081unR17/9PTZ/kVLlUDH4bgS7rlpFOULVqkawRFrM53w==
   /esbuild/0.12.9:
-    dev: false
+    dev: true
     hasBin: true
     requiresBuild: true
     resolution:
@@ -71,7 +73,7 @@ packages:
       merge2: 1.4.1
       micromatch: 4.0.4
       picomatch: 2.3.0
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -79,13 +81,13 @@ packages:
   /fastq/1.11.0:
     dependencies:
       reusify: 1.0.4
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-7Eczs8gIPDrVzT+EksYBcupqMyxSHXXrHOLRRxU2/DicV8789MRBRR8+Hc2uWzUupOs4YS4JzBmBxjjCVBxD/g==
   /fill-range/7.0.1:
     dependencies:
       to-regex-range: 5.0.1
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -93,7 +95,7 @@ packages:
   /glob-parent/5.1.2:
     dependencies:
       is-glob: 4.0.1
-    dev: false
+    dev: true
     engines:
       node: '>= 6'
     resolution:
@@ -106,19 +108,19 @@ packages:
       ignore: 5.1.8
       merge2: 1.4.1
       slash: 3.0.0
-    dev: false
+    dev: true
     engines:
       node: '>=10'
     resolution:
       integrity: sha512-9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==
   /ignore/5.1.8:
-    dev: false
+    dev: true
     engines:
       node: '>= 4'
     resolution:
       integrity: sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
   /is-extglob/2.1.1:
-    dev: false
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -126,19 +128,19 @@ packages:
   /is-glob/4.0.1:
     dependencies:
       is-extglob: 2.1.1
-    dev: false
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
   /is-number/7.0.0:
-    dev: false
+    dev: true
     engines:
       node: '>=0.12.0'
     resolution:
       integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
   /merge2/1.4.1:
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
@@ -147,35 +149,35 @@ packages:
     dependencies:
       braces: 3.0.2
       picomatch: 2.3.0
-    dev: false
+    dev: true
     engines:
       node: '>=8.6'
     resolution:
       integrity: sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==
   /mri/1.1.6:
-    dev: false
+    dev: true
     engines:
       node: '>=4'
     resolution:
       integrity: sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ==
   /path-type/4.0.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
   /picomatch/2.3.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8.6'
     resolution:
       integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
   /queue-microtask/1.2.3:
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
   /reusify/1.0.4:
-    dev: false
+    dev: true
     engines:
       iojs: '>=1.0.0'
       node: '>=0.10.0'
@@ -184,25 +186,24 @@ packages:
   /run-parallel/1.2.0:
     dependencies:
       queue-microtask: 1.2.3
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   /sade/1.7.4:
     dependencies:
       mri: 1.1.6
-    dev: false
+    dev: true
     engines:
       node: '>= 6'
     resolution:
       integrity: sha512-y5yauMD93rX840MwUJr7C1ysLFBgMspsdTo4UVrDg3fXDvtwOyIqykhVAAm6fk/3au77773itJStObgK+LKaiA==
   /slash/3.0.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
   /svelte/3.38.3:
-    dev: false
     engines:
       node: '>= 8'
     resolution:
@@ -214,17 +215,18 @@ packages:
       globby: 11.0.4
       sade: 1.7.4
       svelte: 3.38.3
-    dev: false
+    dev: true
     hasBin: true
     resolution:
       integrity: sha512-kXxLOesNgcjGbD231HDb+1iYi+9XhaWE+hHhPFrR3dWcaLKtF35h9uOMgSFl5QFomaRqPaPrQt1Ck/saFeA5cw==
   /to-regex-range/5.0.1:
     dependencies:
       is-number: 7.0.0
-    dev: false
+    dev: true
     engines:
       node: '>=8.0'
     resolution:
       integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
 specifiers:
+  svelte: ^3.0.0
   svelteup: ^1.0.0
