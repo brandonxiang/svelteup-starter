@@ -4,8 +4,8 @@
   "description": "A simple starter with svelteup",
   "main": "index.js",
   "scripts": {
-    "dev": "svelteup components/index.js -O public/build -S public",
-    "build": "svelteup components/index.js -O public/build"
+    "dev": "svelteup -s public",
+    "build": "svelteup"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
     "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "svelteup": "^1.0.1"
+    "svelteup": "^1.0.3"
   }
 }
