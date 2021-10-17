@@ -14,6 +14,8 @@
     "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "svelteup": "^1.0.0"
+    "svelteup": "^1.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-svelte3": "^3.2.1"
   }
 }
