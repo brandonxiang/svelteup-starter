@@ -7,21 +7,15 @@
     "dev": "svelteup -d",
     "build": "svelteup"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brandonxiang/svelteup-starter.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brandonxiang/svelteup-starter/issues"
-  },
-  "homepage": "https://github.com/brandonxiang/svelteup-starter#readme",
+  "license": "MIT",
   "dependencies": {
     "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "svelteup": "^2.0.0"
+    "svelteup": "^2.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-svelte3": "^3.2.1"
   }
 }
