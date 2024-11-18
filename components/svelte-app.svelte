@@ -1,4 +1,4 @@
-<svelte:options tag="svelte-app" />
+<svelte:options customElement="svelte-app" />
 
 <script>
   export let name;
