@@ -12,7 +12,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^5.2.0"
+    "svelte": "^5.2.0",
+    "@dvcol/svelte-simple-router": "^1.7.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
