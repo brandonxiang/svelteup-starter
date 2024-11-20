@@ -1,7 +1,7 @@
 // import path from 'path';
 
 export default {
-  entry: 'components/index.js',
+  entry: 'src/index.js',
   outdir: 'public/dist',
   compilerOptions: {
     customElement: false,

@@ -1,9 +1,6 @@
 <script>
 import { RouterView } from '@dvcol/svelte-simple-router/components';
 
-import HelloComponent from './hello/HelloComponent.svelte';
-import GoodbyeComponent from './goodbye/GoodbyeComponent.svelte';
-
 const RouteName = {
   Hello: 'hello',
   Goodbye: 'goodbye',
@@ -15,12 +12,12 @@ export const routes = [
   {
     name: RouteName.Home,
     path: '/',
-    component: HelloComponent
+    component: () => import('./hello/HelloComponent.svelte'),
   },
   {
     name: RouteName.Goodbye,
     path: `/goodbye`,
-    component: GoodbyeComponent
+    component: () => import('./goodbye/GoodbyeComponent.svelte'),
   },
 ];
 
